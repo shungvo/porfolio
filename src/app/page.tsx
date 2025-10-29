@@ -32,7 +32,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -128,7 +128,7 @@ export default function Page() {
                 key={language.name}
                 delay={BLUR_FADE_DELAY * 11 + id * 0.05}
               >
-                <div className="flex items-center justify-between p-3 rounded-lg border bg-card">
+                <div className="flex items-center justify-between p-3 rounded-lg bg-card">
                   <div className="flex flex-col">
                     <span className="font-medium">{language.name}</span>
                     <span className="text-sm text-muted-foreground">
@@ -137,7 +137,7 @@ export default function Page() {
                         language.certification &&
                         ` • ${language.certification}`}
                     </span>
-                  </div>  
+                  </div>
                 </div>
               </BlurFade>
             ))}

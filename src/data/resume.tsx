@@ -35,28 +35,31 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "",
+    email: "vosonhung03@gmail.com",
     tel: "",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "#",
+        url: "https://github.com/shungvo",
         icon: Icons.github,
-
-        navbar: false,
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/jingjievo/",
         icon: Icons.linkedin,
-
-        navbar: false,
+        navbar: true,
+      },
+      Facebook: {
+        name: "Facebook",
+        url: "https://www.facebook.com/gnuhnos03/",
+        icon: Icons.facebook,
+        navbar: true,
       },
       X: {
         name: "X",
         url: "#",
         icon: Icons.x,
-
         navbar: false,
       },
       Youtube: {
@@ -67,10 +70,9 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:vosonhung03@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
