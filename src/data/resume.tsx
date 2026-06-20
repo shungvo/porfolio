@@ -96,7 +96,7 @@ export const DATA = {
       school: "HCMC University of Technology and Education",
       href: "https://hcmute.edu.vn",
       degree: "B.S. in Software Engineering (GPA 3.4/4.0)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/logo.jpeg",
       start: "2021",
       end: "2025",
     },
